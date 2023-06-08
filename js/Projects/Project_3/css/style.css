@@ -1,0 +1,680 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+}
+.boxx {
+  width: 100%;
+  max-width: 1400px;
+  display: block;
+  margin: auto;
+  min-height: 100vh;
+  background: #000000;
+  font-family: sans-serif;
+}
+.navbar {
+  width: 100%;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  background: #1a1a1a;
+}
+.ve {
+  position: absolute;
+  left: 2.56%;
+  right: 90.31%;
+  top: 20%;
+  bottom: 98.77%;
+}
+.jo {
+  position: absolute;
+  left: 10%;
+  right: 90.31%;
+  top: 10%;
+  bottom: 98.77%;
+}
+
+
+.bg-slate-700 {
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  left: 1420px;
+  top: 20px;
+  margin-top: 8px;
+
+  background: #e7dede;
+  border-radius: 18px;
+}
+li:last-child{
+  margin-right: 0px;
+
+} 
+.link-group {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.link a {
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  margin: 0 20px;
+  line-height: 60px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.link a:hover,
+.link.active a {
+  opacity: 1;
+}
+.link.beta a {
+  color: #be201d;
+}
+
+.home-section {
+  width: 100%;
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  opacity: 0;
+  transition: 1s;
+}
+
+.hero-heading {
+  color: rgb(183, 28, 28);
+  font-size: 50px;
+  position: absolute;
+  width: 450px;
+  height: 163px;
+  left: 120px;
+  top: 130px;
+  text-transform: capitalize;
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 60;
+  line-height: 75px;
+}
+
+.hero-heading2 {
+  position: absolute;
+  width: 478px;
+  height: 152px;
+  left: 120px;
+  top: 320px;
+
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+ .home-img {
+  
+  position: absolute;
+  width: 1200px;
+  height: 800px;
+  left: 120px;
+  top: 130px;
+  background: url(1.png);
+  box-shadow: 0px 1px 4px 18px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  opacity: 0.8;
+} 
+.star1-img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 120px;
+  top: 480px;
+}
+.star2-img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 170px;
+  top: 480px;
+}
+.star3-img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 220px;
+  top: 480px;
+}
+.star4-img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 270px;
+  top: 480px;
+}
+.star5-img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 320px;
+  top: 480px;
+}
+
+.nike-air {
+  position: absolute;
+  width: 376px;
+  height: 101px;
+  left: 1040px;
+  top: 280px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 115px;
+  color: #ffffff;
+  transform: rotate(-90deg);
+}
+.wearing {
+  position: absolute;
+  width: 380px;
+  height: 86px;
+  left: 120px;
+  top: 1000px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.Instagram {
+  position: absolute;
+  width: 380px;
+  height: 86px;
+  left: 120px;
+  top: 1050px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.s1-img {
+  position: absolute;
+  width: 309px;
+  height: 299px;
+  left: 170px;
+  top: 1150px;
+
+  background: url(Screenshot_1.png);
+  border-radius: 24px;
+}
+.s2-img {
+  position: absolute;
+  width: 309px;
+  height: 299px;
+  left: 570px;
+  top: 1150px;
+
+  background: url(Screenshot_2.png);
+  border-radius: 24px;
+}
+.s3-img {
+  position: absolute;
+  width: 309px;
+  height: 299px;
+  left: 970px;
+  top: 1150px;
+
+  background: url(Screenshot_3.png);
+  border-radius: 25px;
+}
+.ch {
+  position: absolute;
+  width: 185px;
+  height: 49px;
+  left: 235px;
+  top: 1465px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.dr {
+  position: absolute;
+  width: 185px;
+  height: 49px;
+  left: 623px;
+  top: 1465px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.sa {
+  position: absolute;
+  width: 185px;
+  height: 49px;
+  left: 1010px;
+  top: 1465px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.ar-img {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 24px;
+  height: 54px;
+  left: 60px;
+  top: 1280px;
+  transform: rotate(180deg);
+  color: firebrick;
+}
+.ex {
+  position: absolute;
+  width: 700px;
+  height: 49px;
+  left: 385px;
+  top: 1665px;
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.im-img {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  left: 100px;
+  top: 1730px;
+}
+.ann {
+  position: absolute;
+  width: 1200px;
+  height: 49px;
+  left: 300px;
+  top: 2480px;
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.one-img {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  left: 100px;
+  top: 2560px;
+}
+.real {
+  position: absolute;
+  width: 1400px;
+  height: 49px;
+  left: 100px;
+  top: 3300px;
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.tre-img {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  left: 100px;
+  top: 3375px;
+}
+.solid {
+  position: absolute;
+  width: 1400px;
+  height: 49px;
+  left: 140px;
+  top: 4150px;
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.jordan1-img {
+  position: absolute;
+  width: 374px;
+  height: 374px;
+  left: 45px;
+  top: 4270px;
+  background: url(036a324a-a847-4d3c-9607-fa98210c2bcc.png);
+}
+.jordan13-img {
+  position: absolute;
+  width: 374px;
+  height: 374px;
+  left: 515px;
+  top: 4270px;
+}
+.jordan14-img {
+  position: absolute;
+  width: 374px;
+  height: 374px;
+  left: 975px;
+  top: 4270px;
+}
+.mid {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 45px;
+  top: 4655px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.retro13 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 515px;
+  top: 4655px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.retro14 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 975px;
+  top: 4655px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.abcd {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 45px;
+  top: 4685px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #be201d;
+}
+.shoes1 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 515px;
+  top: 4685px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #be201d;
+}
+.shoes2 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 975px;
+  top: 4685px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #be201d;
+}
+.mon1 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 45px;
+  top: 4715px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.mon2 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 515px;
+  top: 4715px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.mon3 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  left: 975px;
+  top: 4715px;
+
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+  .color {
+  width: 1864px;
+  height: 10px;
+  top: 4000px;
+  margin: 4000px 0px 0px 0px;
+  display: inline-block;
+  background-color: white;
+} 
+.desc {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 160px;
+  top: 5100px;
+  color: white;
+  font-family: "Bevan";
+  font-style: normal;
+  line-height: 40px;
+}
+.get {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 550px;
+  top: 5100px;
+  color: white;
+  font-family: "Bevan";
+  font-style: normal;
+  line-height: 40px;
+}
+.order {
+  font-family: "Glory";
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 550px;
+  top: 5140px;
+  color: white;
+  font-style: normal;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.abo {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 900px;
+  top: 5100px;
+  color: white;
+  font-family: "Bevan";
+  font-style: normal;
+  line-height: 40px;
+}
+
+.stat {
+  font-family: "Glory";
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 900px;
+  top: 5140px;
+  color: white;
+  font-style: normal;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.inst {
+  position: absolute;
+  left: 1650px;
+  top: 5100px;
+  color: red;
+}
+.you {
+  position: absolute;
+  left: 1580px;
+  top: 5100px;
+  color: red;
+}
+.face {
+  position: absolute;
+  left: 1510px;
+  top: 5100px;
+  color: red;
+}
+.twit {
+  position: absolute;
+  left: 1440px;
+  top: 5100px;
+  color: red;
+}
+.bub {
+  position: absolute;
+  left: 160px;
+  top: 5600px;
+  color: red;
+}
+.che {
+  color: red;
+  position: absolute;
+  left: 200px;
+  top: 5610px;
+  font-family: "Bevan";
+  font-style: normal;
+
+  font-size: 16px;
+}
+.space {
+  color: red;
+  position: absolute;
+  left: 300px;
+  top: 5610px;
+  font-family: "Bevan";
+  font-style: normal;
+
+  font-size: 16px;
+}
+.end {
+  width: 1864px;
+  height: 10px;
+
+  margin: 650px 0px 0px 0px;
+  display: inline-block;
+  background: #000000;
+}
+.home-section {
+  /* previous styles */
+  position: fixed;
+}
+.home-section.active,
+.project-section.active,
+.about-section.active,
+.contact-section.active {
+  position: relative;
+  opacity: 1;
+  z-index: 8;
+}
